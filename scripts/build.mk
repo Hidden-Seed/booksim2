@@ -24,7 +24,7 @@ $(OBJ_DIR)/%.o: %.c
 	@$(CC) $(CPPFLAGS) -c $< -o $@
 
 # build/xxx.o
-OBJS := $(CSRCS:%.c=$(OBJ_DIR)/%.o) $(CXXSRCS:%.cpp=$(OBJ_DIR)/%.o)
+OBJS += $(CSRCS:%.c=$(OBJ_DIR)/%.o) $(CXXSRCS:%.cpp=$(OBJ_DIR)/%.o)
 
 .PHONY: app clean
 
