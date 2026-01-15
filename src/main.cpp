@@ -83,6 +83,9 @@ int gK;//radix
 int gN;//dimension
 int gC;//concentration
 
+// testnet
+int gP_testnet, gA_testnet;
+
 int gNodes;
 
 //generate nocviewer trace

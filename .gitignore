@@ -9,6 +9,7 @@
 !*.sh
 !config.*
 !.gitignore
+!.clang-format
 !README.md
 !LICENSE.md
 build/*

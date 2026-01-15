@@ -44,6 +44,8 @@ extern int gK;
 extern int gN;
 extern int gC;
 
+extern int gP_testnet, gA_testnet;
+
 extern int gNodes;
 
 extern bool gTrace;
